@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+	font-family: arial;
+}
+h1{
+	text-align: center;
+}
+.work-menu{
+	float: left;
+	width: 50%;
+	text-align: right;
+	padding-right: 50px;
+}
+
+.break-menu{
+	float: right;
+	width: 50%;
+	padding-left: 50px;
+}
+
+.timer{
+	width: 100%;
+	text-align: center;
+	clear: both;
+}
+
+.timer h2{
+	padding-top: 25px;
+}
+
+.work-menu button, .break-menu button{
+	display: inline;
+	width: 30px;
+	font-size: 16pt;
+}
+
+span{
+	margin-left: 5px;
+	margin-right: 5px;
+}
